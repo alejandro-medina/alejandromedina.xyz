@@ -1,62 +1,61 @@
 <script>
 </script>
 
-<style>
-    main#Cover {    
-        height: 100vh;
-        width: 100%;
-        background: #222222;
-        color: #fafafa;
-    }
+<style type="text/scss">
+    
+    main#Cover {
+	height: 100vh;
+	width: 100%;
+	background: #222222;
+	color: #fafafa;
+	.container {
+		height: 100%;
+	}
+	.row {
+		height: 100%;
+		.col-12 {
+			height: 100%;
+		}
+	}
 
-    main#Cover .container, main#Cover .row, main#Cover .row .col-12 {
-        height: 100%;
-    }
+	div.cover-info {
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		h1 {
+			font-size: 3em;
+		}
+		p {
+			font-size: 1.5em;
+		}
+	}
+	div.contact-info {
+		display: initial;
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+			a {
+				li {
+					display: inline-block;
+					margin-right: 1em;
+					padding: 10px 15px;
+					background: #fafafa;
+					cursor: pointer;
+					&:hover {
+						background: #d4d4d4;
+					}
+				}
+				color: #222222;
+				text-decoration: none;
+			}
+		}
+	}
+}
 
-    div.cover-info {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    div.cover-info h1 {
-        font-size: 3em;
-    }
-
-    div.cover-info p {
-        font-size: 1.5em;
-    }
-
-    div.contact-info {
-        display:initial;
-        
-    }
-
-    div.contact-info ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        text-decoration: none;
-    }
-
-    div.contact-info ul a li{
-        display: inline-block;
-        margin-right: 1em;
-        padding: 10px 15px;
-        background: #fafafa;
-        cursor: pointer;
-    }
-
-    div.contact-info ul a li:hover{
-        background: #d4d4d4;
-    }
-
-    div.contact-info ul a {
-        color: #222222;
-        text-decoration: none;
-    }
 
 </style>
 

@@ -4,13 +4,8 @@
 	const name = "Alejandro Medina";
 </script>
 
-<style>
-	:global(html, body) {
-		margin: 0;
-		padding: 0 !important;
-		box-sizing: border-box;
-		font-family: "Roboto", sans-serif;
-	}
+<style type="text/scss">
+	@import "./styles/app";
 </style>
 
 <main>
